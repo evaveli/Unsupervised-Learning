@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+k & scaler & min\_samples & max\_eps & metric & algorithm & sil & db & ch & ari & fmi & purity \\
+\hline
+2 & MinMax & 55 & 1.500 & manhattan & auto & 0.661 & 0.626 & 452.223 & -0.005 & 0.418 & 0.412 \\
+\hline
+3 & MinMax & 55 & 1.500 & cosine & auto & 0.626 & 0.627 & 394.717 & 0.000 & 0.352 & 0.404 \\
+\hline
+4 & MinMax & 45 & 1.500 & cosine & auto & 0.588 & 0.617 & 361.050 & -0.000 & 0.308 & 0.395 \\
+\hline
+5 & MinMax & 45 & 1.500 & euclidean & auto & 0.539 & 0.819 & 268.509 & -0.000 & 0.273 & 0.384 \\
+\hline
+7 & MinMax & 35 & 1.500 & euclidean & auto & 0.541 & 0.806 & 277.525 & 0.000 & 0.236 & 0.394 \\
+\hline
+10 & MinMax & 25 & 1.500 & manhattan & auto & 0.570 & 0.733 & 243.561 & 0.004 & 0.189 & 0.411 \\
+\hline
+11 & MinMax & 25 & 1.500 & cosine & auto & 0.634 & 0.673 & 311.500 & 0.004 & 0.180 & 0.424 \\
+\hline
+12 & MinMax & 25 & 1.500 & euclidean & auto & 0.572 & 0.722 & 258.671 & 0.004 & 0.175 & 0.424 \\
+\hline
+\end{tabular}}
+\caption{Best cmc OPTICS Clustering Results per k (External Weight: 0.0)}
+\label{tab:cmc_optics}
+\end{table}

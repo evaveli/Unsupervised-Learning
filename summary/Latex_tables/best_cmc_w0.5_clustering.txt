@@ -1,0 +1,25 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+k & scaler & affinity & n\_neighbors & eigen\_solver & n\_init & gamma & time & sil & db & ch & ari & nmi & fmi & purity \\
+\hline
+2 & MinMax & rbf & -- & arpack & 40 & 0.400 & 0.263 & 0.188 & 2.020 & 339.167 & 0.042 & 0.040 & 0.446 & 0.430 \\
+\hline
+3 & Robust & nearest\_neighbors & 25 & arpack & 40 & -- & 0.254 & 0.147 & 2.253 & 209.730 & 0.029 & 0.040 & 0.386 & 0.443 \\
+\hline
+4 & MinMax & nearest\_neighbors & 25 & arpack & 40 & -- & 0.328 & 0.058 & 1.462 & 108.627 & 0.051 & 0.027 & 0.492 & 0.451 \\
+\hline
+5 & MinMax & nearest\_neighbors & 25 & arpack & 40 & -- & 0.306 & 0.070 & 1.441 & 106.200 & 0.059 & 0.031 & 0.470 & 0.451 \\
+\hline
+6 & MinMax & nearest\_neighbors & 25 & arpack & 40 & -- & 0.306 & 0.082 & 1.303 & 88.909 & 0.058 & 0.030 & 0.469 & 0.451 \\
+\hline
+7 & MinMax & nearest\_neighbors & 25 & arpack & 40 & -- & 0.191 & 0.112 & 1.463 & 112.864 & 0.068 & 0.033 & 0.396 & 0.462 \\
+\hline
+8 & MinMax & nearest\_neighbors & 25 & arpack & 40 & -- & 0.207 & 0.127 & 1.483 & 113.968 & 0.068 & 0.033 & 0.368 & 0.462 \\
+\hline
+\end{tabular}}
+\caption{Best cmc Spectral Clustering Results per k (External Weight: 0.5)}
+\label{tab:cmc_Spectralclustering}
+\end{table}

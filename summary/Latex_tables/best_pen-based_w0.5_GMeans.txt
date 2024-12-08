@@ -1,0 +1,13 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Optimal k & scaler & Alpha & distance & Method & silhouette & davies & calinski & ari & fmi \\
+\hline
+12 & MinMax & 0.0050 & cosine & G-Means & 0.377 & 1.525 & 2287.818 & 0.573 & 0.616 \\
+\hline
+\end{tabular}}
+\caption{Best pen-based G-Means Results per k (External Weight: 0.5)}
+\label{tab:pen-based_GMeans}
+\end{table}

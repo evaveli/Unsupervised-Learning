@@ -1,0 +1,25 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+k & scaler & affinity & n\_neighbors & eigen\_solver & n\_init & gamma & time & sil & db & ch & ari & nmi & fmi & purity \\
+\hline
+2 & Standard & nearest\_neighbors & 5 & arpack & 3 & -- & 0.004 & 0.206 & 2.019 & 25.439 & 0.428 & 0.256 & 0.809 & 0.852 \\
+\hline
+3 & Standard & rbf & -- & arpack & 3 & 0.375 & 0.004 & 0.224 & 1.562 & 15.926 & 0.383 & 0.204 & 0.797 & 0.839 \\
+\hline
+4 & Standard & rbf & -- & arpack & 3 & 0.425 & 0.007 & 0.193 & 1.904 & 11.516 & 0.370 & 0.179 & 0.800 & 0.839 \\
+\hline
+5 & Robust & rbf & -- & arpack & 3 & 0.450 & 0.005 & 0.243 & 1.253 & 15.657 & 0.310 & 0.168 & 0.794 & 0.832 \\
+\hline
+6 & Robust & rbf & -- & arpack & 3 & 0.450 & 0.005 & 0.257 & 0.979 & 17.789 & 0.394 & 0.210 & 0.804 & 0.845 \\
+\hline
+7 & Robust & rbf & -- & arpack & 3 & 0.350 & 0.004 & 0.232 & 0.725 & 8.442 & 0.259 & 0.193 & 0.821 & 0.845 \\
+\hline
+8 & Robust & rbf & -- & arpack & 5 & 0.450 & 0.005 & 0.248 & 0.802 & 13.866 & 0.380 & 0.217 & 0.796 & 0.852 \\
+\hline
+\end{tabular}}
+\caption{Best hepatitis Spectral Clustering Results per k (External Weight: 0.9)}
+\label{tab:hepatitis_Spectralclustering}
+\end{table}

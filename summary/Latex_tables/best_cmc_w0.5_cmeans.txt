@@ -1,0 +1,25 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+k & scaler & distance & fuzziness & obj\_func & sil & db & ch & pc & pe & xb \\
+\hline
+2 & MinMax & cosine & 1.5 & 400.672 & 0.304 & 2.074 & 331.332 & 0.415 & 0.138 & 9.679e-01 \\
+\hline
+3 & Robust & cosine & 1.5 & 416.375 & 0.258 & 2.069 & 245.920 & 0.254 & 0.140 & 8.779e-01 \\
+\hline
+4 & MinMax & cosine & 1.5 & 290.698 & 0.271 & 2.219 & 221.950 & 0.183 & 0.129 & 1.128e+00 \\
+\hline
+5 & MinMax & cosine & 1.5 & 259.080 & 0.242 & 2.139 & 199.212 & 0.140 & 0.121 & 1.011e+00 \\
+\hline
+6 & MinMax & cosine & 1.5 & 236.181 & 0.260 & 1.977 & 183.545 & 0.115 & 0.108 & 8.156e-01 \\
+\hline
+7 & MinMax & cosine & 1.5 & 221.559 & 0.289 & 1.933 & 185.797 & 0.102 & 0.089 & 7.987e-01 \\
+\hline
+8 & MinMax & cosine & 1.5 & 207.737 & 0.278 & 1.880 & 172.159 & 0.089 & 0.082 & 7.426e-01 \\
+\hline
+\end{tabular}}
+\caption{Best cmc C-Means Results per per k (External Weight: 0.5}
+\label{tab:cmc_cmeans}
+\end{table}

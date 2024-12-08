@@ -1,0 +1,35 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+k & scaler & min\_samples & max\_eps & metric & algorithm & sil & db & ch & ari & fmi & purity \\
+\hline
+2 & MinMax & 32 & 3.000 & manhattan & auto & 0.713 & 0.442 & 488.047 & 1.000 & 1.000 & 1.000 \\
+\hline
+3 & MinMax & 23 & 3.000 & manhattan & auto & 0.612 & 0.649 & 243.910 & 1.000 & 1.000 & 1.000 \\
+\hline
+5 & MinMax & 20 & 3.000 & manhattan & auto & 0.594 & 0.576 & 241.430 & 0.617 & 0.751 & 1.000 \\
+\hline
+6 & MinMax & 32 & 1.000 & cosine & auto & 0.649 & 0.664 & 684.683 & 0.978 & 0.990 & 0.997 \\
+\hline
+8 & MinMax & 32 & 1.000 & manhattan & auto & 0.379 & 1.000 & 3104.240 & 0.628 & 0.696 & 0.734 \\
+\hline
+9 & MinMax & 40 & 1.000 & manhattan & auto & 0.422 & 0.915 & 3427.463 & 0.706 & 0.752 & 0.809 \\
+\hline
+10 & MinMax & 20 & 1.000 & manhattan & auto & 0.338 & 0.986 & 2420.600 & 0.625 & 0.691 & 0.733 \\
+\hline
+11 & MinMax & 15 & 1.000 & euclidean & auto & 0.601 & 0.592 & 254.621 & 0.439 & 0.597 & 1.000 \\
+\hline
+12 & MinMax & 15 & 3.000 & manhattan & auto & 0.593 & 0.554 & 317.919 & 0.658 & 0.741 & 1.000 \\
+\hline
+14 & MinMax & 20 & 1.000 & cosine & auto & 0.421 & 0.716 & 737.341 & 0.990 & 0.993 & 0.998 \\
+\hline
+17 & MinMax & 15 & 1.000 & manhattan & auto & 0.361 & 0.760 & 959.617 & 0.677 & 0.758 & 0.792 \\
+\hline
+33 & MinMax & 15 & 1.000 & cosine & auto & 0.545 & 0.664 & 347.880 & 0.267 & 0.426 & 0.995 \\
+\hline
+\end{tabular}}
+\caption{Best pen-based OPTICS Clustering Results per k (External Weight: 0.5)}
+\label{tab:pen-based_optics}
+\end{table}

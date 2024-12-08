@@ -1,0 +1,13 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Optimal k & scaler & Alpha & distance & Method & silhouette & davies & calinski & ari & fmi \\
+\hline
+8 & Standard & 0.0001 & manhattan & G-Means & 0.167 & 1.925 & 15.814 & 0.061 & 0.386 \\
+\hline
+\end{tabular}}
+\caption{Best hepatitis G-Means Results per k (External Weight: 0.5)}
+\label{tab:hepatitis_GMeans}
+\end{table}

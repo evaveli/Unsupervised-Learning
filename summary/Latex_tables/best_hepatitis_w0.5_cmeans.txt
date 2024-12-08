@@ -1,0 +1,25 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+k & scaler & distance & fuzziness & obj\_func & sil & db & ch & pc & pe & xb \\
+\hline
+2 & Robust & cosine & 1.3 & 68.553 & 0.298 & 1.783 & 38.121 & 0.449 & 0.083 & 9.032e-01 \\
+\hline
+3 & Robust & euclidean & 1.3 & 391.520 & 0.217 & 1.620 & 40.582 & 0.270 & 0.111 & 7.578e-01 \\
+\hline
+4 & Robust & euclidean & 1.3 & 365.269 & 0.247 & 1.479 & 39.749 & 0.205 & 0.087 & 6.603e-01 \\
+\hline
+5 & Robust & euclidean & 1.3 & 343.665 & 0.239 & 1.538 & 37.883 & 0.156 & 0.086 & 1.066e+00 \\
+\hline
+6 & Robust & cosine & 1.3 & 40.953 & 0.315 & 1.641 & 27.700 & 0.147 & 0.041 & 1.564e+00 \\
+\hline
+7 & Robust & cosine & 1.3 & 38.481 & 0.310 & 1.725 & 23.662 & 0.125 & 0.038 & 2.562e+00 \\
+\hline
+8 & Robust & cosine & 1.3 & 36.488 & 0.304 & 1.776 & 22.005 & 0.107 & 0.037 & 2.919e+00 \\
+\hline
+\end{tabular}}
+\caption{Best hepatitis C-Means Results per per k (External Weight: 0.5}
+\label{tab:hepatitis_cmeans}
+\end{table}

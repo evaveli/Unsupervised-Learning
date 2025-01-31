@@ -1,4 +1,4 @@
-# IML Work 2
+# IML Work 3
 
 Third work of UB course "Introduction to Machine Learning" implementing clustering algorithms
 
